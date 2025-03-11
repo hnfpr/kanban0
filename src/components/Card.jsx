@@ -26,6 +26,10 @@ function Card({ card, index, onClick }) {
         >
           <h4 className="card-title">{card.title}</h4>
           
+          {card.description && (
+            <p className="card-description">{card.description}</p>
+          )}
+          
           {subtasksTotal > 0 && (
             <div className="subtasks-container">
               <div className="subtasks-info">

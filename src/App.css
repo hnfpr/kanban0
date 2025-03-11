@@ -373,6 +373,19 @@
   margin: 0 0 0.5rem 0;
   font-size: 0.95rem;
   color: #fff;
+  text-align: left;
+}
+
+.card-description {
+  font-size: 0.85rem;
+  color: #ccc;
+  margin: 0 0 0.75rem 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
 }
 
 .card-tags {
